@@ -3,7 +3,6 @@ import './App.css';
 
 //components
 import Map from './components/Map';
-import Places from './components/Places';
 
 class App extends Component {
   render() {
@@ -12,7 +11,6 @@ class App extends Component {
           <Map
               containerElement={<div style={{height:`100%`}} />}
               mapElement={<div style={{height:`100%`}} />} />
-        <Places />
       </div>
     );
   }
